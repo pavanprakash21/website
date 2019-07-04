@@ -3,8 +3,15 @@
   "version": "0.0.1",
   "description": "My personal website.",
   "main": "index.js",
-  "repository": "https://github.com/draconiandev/website",
-  "author": "Pavan Prakash",
+  "author": {
+    "name": "Pavan Prakash",
+    "email": "pavanprakash21@gmail.com",
+    "url": "https://pavanprakash.ml"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/draconiandev/website"
+  },
   "license": "MIT",
   "private": true
 }
