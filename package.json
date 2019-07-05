@@ -15,7 +15,7 @@
   "scripts": {
     "dev": "next",
     "lint": "eslint . --ext .json --ext .js",
-    "prettier": "prettier --write \"**/*.{ html, js, json ,md, mdx, mjs, yml }\""
+    "prettier": "prettier --write \"**/*.{html,js,json,md,mdx,mjs,yml}\""
   },
   "husky": {
     "hooks": {
@@ -23,7 +23,7 @@
     }
   },
   "lint-staged": {
-    "*.{ html, js, json ,md, mdx, mjs, yml }": [
+    "*.{html,js,json,md,mdx,mjs,yml}": [
       "prettier --write",
       "git add"
     ]
@@ -31,9 +31,12 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
+    "date-fns": "^1.30.1",
     "next": "^8.1.0",
     "react": "^16.8.6",
-    "styled-components": "^4.3.2"
+    "styled-components": "^4.3.2",
+    "styled-reset": "^2.0.16",
+    "title": "^3.4.1"
   },
   "devDependencies": {
     "babel-plugin-styled-components": "^1.10.6",
