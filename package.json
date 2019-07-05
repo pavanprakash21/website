@@ -12,6 +12,37 @@
     "type": "git",
     "url": "git+https://github.com/draconiandev/website"
   },
+  "scripts": {
+    "dev": "next",
+    "lint": "eslint . --ext .json --ext .js",
+    "prettier": "prettier --write \"**/*.{ html, js, json ,md, mdx, mjs, yml }\""
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{ html, js, json ,md, mdx, mjs, yml }": [
+      "prettier --write",
+      "git add"
+    ]
+  },
   "license": "MIT",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "next": "^8.1.0",
+    "react": "^16.8.6",
+    "styled-components": "^4.3.2"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.10.6",
+    "eslint": "^6.0.1",
+    "eslint-config-get-off-my-lawn-prettier": "^1.0.0",
+    "husky": "^3.0.0",
+    "lint-staged": "^9.0.2",
+    "prettier": "^1.18.2",
+    "react-dom": "^16.8.6",
+    "webpack-bundle-analyzer": "^3.3.2"
+  }
 }
