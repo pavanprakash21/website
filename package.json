@@ -15,7 +15,7 @@
   "scripts": {
     "dev": "next",
     "lint": "eslint . --ext .json --ext .js",
-    "prettier": "prettier --write \"**/*.{ html, js, json ,md, mdx, mjs, yml }\""
+    "prettier": "prettier --write \"**/*.{html,js,json,md,mdx,mjs,yml}\""
   },
   "husky": {
     "hooks": {
@@ -23,7 +23,7 @@
     }
   },
   "lint-staged": {
-    "*.{ html, js, json ,md, mdx, mjs, yml }": [
+    "*.{html,js,json,md,mdx,mjs,yml}": [
       "prettier --write",
       "git add"
     ]
