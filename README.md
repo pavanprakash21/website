@@ -1,1 +1,1 @@
-https://api.dependabot.com/badges/status?host=github&repo=draconiandev/website
+[![Dependabot Status](https://flat.badgen.net/dependabot/draconiandev/website?icon=dependabot)](https://flat.badgen.net/dependabot/draconiandev/website?icon=dependabot)
