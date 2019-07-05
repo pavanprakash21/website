@@ -33,7 +33,8 @@
   "dependencies": {
     "next": "^8.1.0",
     "react": "^16.8.6",
-    "styled-components": "^4.3.2"
+    "styled-components": "^4.3.2",
+    "styled-reset": "^2.0.16"
   },
   "devDependencies": {
     "babel-plugin-styled-components": "^1.10.6",
