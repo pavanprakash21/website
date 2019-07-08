@@ -2,3 +2,7 @@
 [![Known Vulnerabilities](https://snyk.io/test/github/draconiandev/website/badge.svg?style=flat-square)](https://snyk.io/test/github/draconiandev/website)
 [![Maintainability](https://api.codeclimate.com/v1/badges/670ea4685798f7204bea/maintainability)](https://codeclimate.com/github/draconiandev/website/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/670ea4685798f7204bea/test_coverage)](https://codeclimate.com/github/draconiandev/website/test_coverage)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+[![Prettier](https://img.shields.io/badge/Code%20Style-Prettier-green.svg)](https://github.com/prettier/prettier)
+![Size](https://github-size-badge.herokuapp.com/draconiandev/website.svg)
+![GitHub last commit](https://img.shields.io/github/last-commit/draconiandev/website.svg)
