@@ -7,4 +7,4 @@
 ![Size](https://github-size-badge.herokuapp.com/draconiandev/website.svg)
 ![GitHub last commit](https://img.shields.io/github/last-commit/draconiandev/website.svg)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
-![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2958/badge)](https://bestpractices.coreinfrastructure.org/projects/2958)
+![[CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2958/badge)](https://bestpractices.coreinfrastructure.org/projects/2958)
