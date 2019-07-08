@@ -17,7 +17,9 @@
     "lint": "eslint . --ext .json --ext .js",
     "prettier": "prettier --write \"**/*.{html,js,json,md,mdx,mjs,yml}\"",
     "build": "next build",
-    "now-build": "next build"
+    "now-build": "next build",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "husky": {
     "hooks": {
@@ -38,7 +40,8 @@
     "react": "^16.8.6",
     "styled-components": "^4.3.2",
     "styled-reset": "^2.0.16",
-    "title": "^3.4.1"
+    "title": "^3.4.1",
+    "snyk": "^1.192.3"
   },
   "devDependencies": {
     "babel-plugin-styled-components": "^1.10.6",
@@ -49,5 +52,6 @@
     "prettier": "^1.18.2",
     "react-dom": "^16.8.6",
     "webpack-bundle-analyzer": "^3.3.2"
-  }
+  },
+  "snyk": true
 }
