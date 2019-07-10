@@ -18,8 +18,7 @@
     "prettier": "prettier --write \"**/*.{html,js,json,md,mdx,mjs,yml}\"",
     "build": "next build",
     "now-build": "next build",
-    "snyk-protect": "snyk protect",
-    "prepublish": "npm run snyk-protect"
+    "snyk-protect": "snyk protect"
   },
   "husky": {
     "hooks": {
@@ -53,5 +52,5 @@
     "react-dom": "^16.8.6",
     "webpack-bundle-analyzer": "^3.3.2"
   },
-  "snyk": true
+  "snyk": false
 }
