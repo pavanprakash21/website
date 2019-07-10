@@ -20,7 +20,7 @@ const Container = styled.div`
 export default () => (
   <StyledFooter>
     <Container>
-      <Link underline>{'pavanprakash.ml'}</Link>
+      <Link underline>{'pavanprakash.now.sh'}</Link>
     </Container>
   </StyledFooter>
 );
