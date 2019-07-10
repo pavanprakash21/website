@@ -41,7 +41,7 @@
     "styled-components": "^4.3.2",
     "styled-reset": "^2.0.16",
     "title": "^3.4.1",
-    "snyk": "^1.192.3"
+    "snyk": "^1.192.4"
   },
   "devDependencies": {
     "babel-plugin-styled-components": "^1.10.6",

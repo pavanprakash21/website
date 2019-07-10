@@ -410,3 +410,5 @@ patch:
         patched: '2019-07-08T09:08:12.651Z'
     - next > @babel/preset-env > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
         patched: '2019-07-08T09:08:12.651Z'
+    - next > next-server > styled-jsx > babel-types > lodash:
+        patched: '2019-07-10T06:51:07.753Z'
