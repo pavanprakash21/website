@@ -1,15 +1,14 @@
 {
-  "presets": [
-      "next/babel"
-  ],
+  "presets": ["next/babel"],
   "plugins": [
-      [
-          "styled-components",
-          {
-              "displayName": true,
-              "preprocess": false,
-              "ssr": true
-          }
-      ]
+    [
+      "styled-components",
+      {
+        "displayName": true,
+        "preprocess": false,
+        "ssr": true
+      }
+    ],
+    "inline-react-svg"
   ]
 }

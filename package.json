@@ -43,6 +43,7 @@
     "snyk": "^1.192.3"
   },
   "devDependencies": {
+    "babel-plugin-inline-react-svg": "^1.1.0",
     "babel-plugin-styled-components": "^1.10.6",
     "eslint": "^6.0.1",
     "eslint-config-get-off-my-lawn-prettier": "^1.0.0",
