@@ -1,7 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
 import reset from 'styled-reset';
 
-import { colors, spacing } from 'styles/vars';
+import { colors, spacing } from '../styles/vars';
 
 const code = `
   background-color: #f3f3f3;

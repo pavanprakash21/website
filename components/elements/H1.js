@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import { heading } from 'styles/mixins';
-import titleStyle from 'utils/title-style';
+import { heading } from '../../styles/mixins';
+import titleStyle from '../../utils/title-style';
 
 const StyledH1 = styled.h1`
   ${heading} font-size: 32px;

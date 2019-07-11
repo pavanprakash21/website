@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import { spacing } from 'styles/vars';
+import { spacing } from '../../styles/vars';
 
 const SocialListItem = styled.li`
   display: block;

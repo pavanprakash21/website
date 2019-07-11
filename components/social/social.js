@@ -1,8 +1,8 @@
 import React from 'react';
 
-import LinkedInIcon from 'assets/images/linked_in.svg';
-import GitHubIcon from 'assets/images/github.svg';
-import EmailIcon from 'assets/images/email.svg';
+import LinkedInIcon from '../../assets/images/linked_in.svg';
+import GitHubIcon from '../../assets/images/github.svg';
+import EmailIcon from '../../assets/images/email.svg';
 
 import SocialLink from './social-link';
 import SocialListItem from './social-list-item';
