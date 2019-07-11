@@ -9,6 +9,12 @@
         "ssr": true
       }
     ],
-    "inline-react-svg"
+    "inline-react-svg",
+    [
+      "module-resolver",
+      {
+        "root": ["./"]
+      }
+    ]
   ]
 }

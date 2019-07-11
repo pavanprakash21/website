@@ -2,8 +2,8 @@ import Head from 'next/head';
 import { withRouter } from 'next/router';
 import React from 'react';
 
-import { dateTime } from '../utils/date-format';
-import titleStyle from '../utils/title-style';
+import { dateTime } from 'utils/date-format';
+import titleStyle from 'utils/title-style';
 
 import GlobalStyle from './GlobalStyle';
 

@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import Link from 'next/link';
 
-import { colors } from '../styles/vars';
+import { colors } from 'styles/vars';
 
 const StyledArticleLink = styled.a`
   color: ${colors.accent};

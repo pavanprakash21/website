@@ -1,9 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import { heading } from '../../styles/mixins';
-import { spacing } from '../../styles/vars';
-import titleStyle from '../../utils/title-style';
+import { heading } from 'styles/mixins';
+import { spacing } from 'styles/vars';
+import titleStyle from 'utils/title-style';
 
 const StyledH3 = styled.h3`
   ${heading};

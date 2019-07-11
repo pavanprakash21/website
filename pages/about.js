@@ -1,14 +1,14 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import { heading } from '../styles/mixins';
-import { spacing } from '../styles/vars';
-import Footer from '../components/footer';
-import H3 from '../components/elements/H3';
-import Main from '../components/elements/main';
-import Nav from '../components/nav';
-import Page from '../components/page';
-import Social from '../components/social/social';
+import { heading } from 'styles/mixins';
+import { spacing } from 'styles/vars';
+import Footer from 'components/footer';
+import H3 from 'components/elements/H3';
+import Main from 'components/elements/main';
+import Nav from 'components/nav';
+import Page from 'components/page';
+import Social from 'components/social/social';
 
 const AboutTitle = styled.h3`
   ${heading} color: #2e2e2e;

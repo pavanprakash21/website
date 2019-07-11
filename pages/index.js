@@ -1,10 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import Link from '../components/link';
-import Page from '../components/page';
-import { column } from '../styles/mixins';
-import { colors, spacing } from '../styles/vars';
+import Link from 'components/link';
+import Page from 'components/page';
+import { column } from 'styles/mixins';
+import { colors, spacing } from 'styles/vars';
 
 const Main = styled.main`
   background-color: #101010;
