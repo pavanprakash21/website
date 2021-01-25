@@ -48,6 +48,6 @@
     "lint-staged": "^9.1.0",
     "prettier": "^1.18.2",
     "react-dom": "^16.8.6",
-    "webpack-bundle-analyzer": "^3.3.2"
+    "webpack-bundle-analyzer": "^4.4.0"
   }
 }
